@@ -13,10 +13,6 @@ namespace Gider
 	{
 		void Application_Start(object sender, EventArgs e)
 		{
-			if (Request.Url.AbsolutePath.EndsWith("/"))
-			{
-				Server.Transfer("~/User/Logon.aspx");
-			}
 			RouteConfig.RegisterRoutes(RouteTable.Routes);
 			BundleConfig.RegisterBundles(BundleTable.Bundles);
 		}
