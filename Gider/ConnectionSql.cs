@@ -9,7 +9,7 @@ namespace Gider
 	{
 		public SqlConnection baglanti()
 		{
-			SqlConnection baglan = new SqlConnection(@"Data Source=localhost;Initial Catalog=Dbo_giderler;Integrated Security=True");
+			SqlConnection baglan = new SqlConnection(@"Data Source =tcp:alexagider.database.windows.net,1433;Initial Catalog =dbo_giris;User ID=mertcandbgider@alexagider;Password:3230219Abc");
 			baglan.Open();
 			return baglan;
 		}
