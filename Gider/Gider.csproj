@@ -163,6 +163,7 @@
     <Content Include="bsdeneme\vendor\jquery\jquery.slim.js" />
     <Content Include="bsdeneme\vendor\jquery\jquery.slim.min.js" />
     <Content Include="Contact.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="DenemeSideBar.aspx" />
     <Content Include="KullaniciEkle.aspx" />
     <Content Include="Stylesheets\container.css" />
@@ -294,6 +295,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="DenemeSideBar.aspx.cs">
       <DependentUpon>DenemeSideBar.aspx</DependentUpon>
