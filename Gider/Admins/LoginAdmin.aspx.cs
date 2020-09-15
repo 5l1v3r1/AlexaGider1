@@ -7,10 +7,12 @@ using System.Web.UI.WebControls;
 using System.Web.Security;
 using System.Data;
 using System.Data.SqlClient;
+
 namespace Gider.Admins
 {
 	public partial class LoginAdmin : System.Web.UI.Page
 	{
+       
 
         ConnectionSql bgl = new ConnectionSql();
         protected void Page_Load(object sender, EventArgs e)
