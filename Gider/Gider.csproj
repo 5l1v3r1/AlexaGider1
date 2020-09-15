@@ -222,6 +222,7 @@
     <None Include="Properties\PublishProfiles\GiderAlexa - Web Deploy1.pubxml" />
     <None Include="Properties\PublishProfiles\GiderAlexa - Web Deploy2.pubxml" />
     <None Include="Properties\PublishProfiles\GiderAlexa - Web Deploy3.pubxml" />
+    <None Include="Properties\PublishProfiles\gideralexatravel - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="bsdeneme\gulpfile.js" />
     <Content Include="icons\clipart3011315.png" />
