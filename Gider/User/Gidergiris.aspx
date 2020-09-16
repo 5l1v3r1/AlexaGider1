@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Client.Master" AutoEventWireup="true" CodeBehind="~/User/Gidergiris.aspx.cs" Inherits="Gider.Gidergiris" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="https://gideralexa.azurewebsites.net/" />
     <style type="text/css">
         .auto-style4 {
