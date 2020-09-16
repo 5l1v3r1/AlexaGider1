@@ -22,13 +22,13 @@
             <ItemTemplate>
                 <table style="width:100%;height:100%;outline-style:auto" border="0">
                     <tr>
-                        <td style="width: 25px">
+                        <td style="width: 56px; text-align: center;">
                             <asp:Label ID="Label1" runat="server" Text='<%# Eval("id") %>'></asp:Label>
                         </td>
-                        <td style="width: 249px">
+                        <td style="width: 251px">
                             <asp:Label ID="Label2" runat="server" Text='<%# Eval("Kullaniciad") %>'></asp:Label>
                         </td>
-                        <td style="width: 156px">
+                        <td style="width: 175px">
                             <asp:Label ID="Label3" runat="server" Text='<%# Eval("Miktar") %>'></asp:Label>
                         </td>
                         <td style="width: 174px">

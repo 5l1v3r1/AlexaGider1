@@ -44,7 +44,7 @@
       <div class="list-group list-group-flush" style="background-color:white;">
         <a href="/User/Gidergiris.aspx" class="list-group-item list-group-item-action bg-light" style="background-color:white;">Gider Giris</a>
           <div class="dropdown" style="background-color:white;">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 237px">
     Giderleri Gör</button>
               
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color:white">
