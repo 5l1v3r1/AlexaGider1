@@ -16,10 +16,11 @@ namespace Gider
 		
 		protected void Page_Load(object sender, EventArgs e)
 		{
+			
 				if (User.Identity.IsAuthenticated)
 				{
-					//this.cmdSignOut.ServerClick += new System.EventHandler(this.cmdSignOut_ServerClick);
-				}
+				   Response.Write(User.Identity.Name);
+			    }
 				else
 				{
 					Response.Redirect("~/User/Logon.aspx");

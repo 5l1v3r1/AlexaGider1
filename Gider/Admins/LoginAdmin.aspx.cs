@@ -18,6 +18,7 @@ namespace Gider.Admins
         protected void Page_Load(object sender, EventArgs e)
         {
             this.cmdLogin.ServerClick += new System.EventHandler(this.cmdLogin_ServerClick);
+            
         }
         private bool ValidateUser(string userName, string passWord)
         {
