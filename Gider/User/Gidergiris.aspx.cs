@@ -18,7 +18,7 @@ namespace Gider
 		{
 				if (User.Identity.IsAuthenticated)
 				{
-					this.cmdSignOut.ServerClick += new System.EventHandler(this.cmdSignOut_ServerClick);
+					//this.cmdSignOut.ServerClick += new System.EventHandler(this.cmdSignOut_ServerClick);
 				}
 				else
 				{
@@ -38,10 +38,10 @@ namespace Gider
 			bgl.baglanti().Close();
 			Button1.Enabled = false;
 		}
-		private void cmdSignOut_ServerClick(object sender, System.EventArgs e)
-		{
-			FormsAuthentication.SignOut();
-			Response.Redirect("~/User/Logon.aspx", true);
-		}
+		//private void cmdSignOut_ServerClick(object sender, System.EventArgs e)
+		//{
+		//	FormsAuthentication.SignOut();
+		//	Response.Redirect("~/User/Logon.aspx", true);
+		//}
 	}
 }

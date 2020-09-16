@@ -100,7 +100,7 @@
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   <div class="auto-style40"> <input type="submit" Value="Çıkış Yap" runat="server" id="cmdSignOut" class="btn-dark"></div>
+   <div class="auto-style40"> </div>
     <form id="form1" runat="server">
     <table class="auto-style34">
   <thead>
