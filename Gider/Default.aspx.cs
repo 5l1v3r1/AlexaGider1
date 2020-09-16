@@ -4,7 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+using System.Data.SqlClient;
+using System.Configuration;
+using System.Runtime.InteropServices;
+using System.Web.Security;
 namespace Gider
 {
 	public partial class Default : System.Web.UI.Page

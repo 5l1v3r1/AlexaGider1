@@ -2,17 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="canonical" href="https://gideralexa.azurewebsites.net/" />
     <style type="text/css">
-        .auto-style3 {
-            width: 236px;
-            text-align: center;
-        }
         .auto-style4 {
             width: 100%;
             height: 70px;
             margin-bottom: 61px;
-        }
-        .auto-style14 {
-            text-align: center;
         }
         .auto-style15 {
             width: 159px;
@@ -20,14 +13,6 @@
         }
         .auto-style17 {
             width: 227px;
-        }
-        .auto-style19 {
-            width: 256px;
-            text-align: center;
-        }
-        .auto-style20 {
-            text-align: center;
-            width: 298px;
         }
         .auto-style23 {
             margin-left: 48px;
@@ -87,20 +72,45 @@
         .auto-style33 {
             margin-left: 1386px;
         }
+        .auto-style34 {
+            width: 97%;
+            color: #212529;
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+        }
+        .auto-style35 {
+            width: 213px;
+            text-align: center;
+        }
+        .auto-style36 {
+            width: 197px;
+            text-align: center;
+        }
+        .auto-style38 {
+            width: 145px;
+            text-align: center;
+        }
+        .auto-style39 {
+            width: 111px;
+            text-align: center;
+        }
+        .auto-style40 {
+            text-align: right;
+        }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+   <div class="auto-style40"> <input type="submit" Value="Çıkış Yap" runat="server" id="cmdSignOut" class="btn-dark"></div>
     <form id="form1" runat="server">
-        <input type="submit" Value="SignOut" runat="server" id="cmdSignOut">
-    <table class="table">
+    <table class="auto-style34">
   <thead>
     <tr>
-      <th scope="col" class="auto-style3">Ad Soyad</th>
-      <th scope="col" class="auto-style19">Miktar</th>
+      <th scope="col" class="auto-style39">Ad Soyad</th>
+      <th scope="col" class="auto-style38">Miktar</th>
       <th scope="col" class="auto-style15">Departman</th>
-      <th scope="col" class="auto-style20">Currency</th>
-      <th scope="col" class="auto-style14">Açıklama</th>
-      <th scope="col" class="auto-style14">Tarih</th>
+      <th scope="col" class="auto-style38">Currency</th>
+      <th scope="col" class="auto-style35">Açıklama</th>
+      <th scope="col" class="auto-style36">Tarih</th>
     </tr>
   </thead>
         </table>
@@ -125,7 +135,7 @@
     <option value="TL">TL</option>
 </select> </td>
                     <td class="auto-style24"><asp:TextBox runat="server" ID="AciklamaTxt" CssClass="auto-style23" TextMode="MultiLine" Width="240px"></asp:TextBox></td>
-                    <td><asp:TextBox runat="server" ID="Tarihtxt" CssClass="auto-style25" Width="98px"></asp:TextBox></td>
+                    <td><asp:TextBox runat="server" ID="Tarihtxt" CssClass="auto-style25" Width="134px"></asp:TextBox></td>
                 </tr>
             </table>
         </div>
@@ -135,6 +145,7 @@
           })
       </script>
     <div class="auto-style33">
+
         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
  
 <script type="text/javascript">
@@ -162,9 +173,10 @@
     }
 
 </script>
-        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" OnClientClick="return preventMultipleSubmissions();"/>
+        <asp:Button ID="Button1" runat="server" Text="Giriş" OnClick="Button1_Click" OnClientClick="return preventMultipleSubmissions();"/>
 
     </div>
-    </form>
+                     
+    </form> 
       </asp:Content>
                       

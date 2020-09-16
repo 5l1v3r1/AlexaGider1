@@ -16,14 +16,14 @@ namespace Gider
 		
 		protected void Page_Load(object sender, EventArgs e)
 		{
-			if (User.Identity.IsAuthenticated == true)
-			{
-				this.cmdSignOut.ServerClick += new System.EventHandler(this.cmdSignOut_ServerClick);
-			}
-			else
-			{
-				Response.Redirect("~/User/Logon.aspx");
-			}
+				if (User.Identity.IsAuthenticated)
+				{
+					this.cmdSignOut.ServerClick += new System.EventHandler(this.cmdSignOut_ServerClick);
+				}
+				else
+				{
+					Response.Redirect("~/User/Logon.aspx");
+				}	
 		}
 		protected void Button1_Click(object sender, EventArgs e)
 		{
@@ -36,13 +36,12 @@ namespace Gider
 			komut.Parameters.AddWithValue("@t6", Tarihtxt.Text);
 			komut.ExecuteNonQuery();
 			bgl.baglanti().Close();
-			Response.Write("Gider Alındı");
 			Button1.Enabled = false;
 		}
 		private void cmdSignOut_ServerClick(object sender, System.EventArgs e)
 		{
 			FormsAuthentication.SignOut();
-			Response.Redirect("logon.aspx", true);
+			Response.Redirect("~/User/Logon.aspx", true);
 		}
 	}
 }

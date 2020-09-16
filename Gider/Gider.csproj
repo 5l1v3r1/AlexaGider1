@@ -176,6 +176,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="GiderDetaycs.aspx" />
+    <Content Include="Stylesheets\loginpage.css" />
     <Content Include="Stylesheets\ss.css" />
     <Content Include="User\Gidergiris.aspx" />
     <Content Include="GiderGor.aspx" />

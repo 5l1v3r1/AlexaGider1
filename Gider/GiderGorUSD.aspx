@@ -43,7 +43,7 @@
                         <td style="width: 153px; margin-left: 40px;">
                             <asp:Label ID="Label7" runat="server" Text='<%# Eval("KayitTarih") %>'></asp:Label>
                             &nbsp;</td>
-                        <td> <a href ="GiderDetaycs.aspx?id=<%#Eval("id") %>"><asp:Label ID="Label8" runat="server" Text="Label"></asp:Label></a>
+                        <td> <a href ="GiderDetaycs.aspx?id=<%#Eval("id") %>"><asp:Label ID="Label8" runat="server" Text="Edit"></asp:Label></a>
                         </td>
                     </tr>
                 </table>
