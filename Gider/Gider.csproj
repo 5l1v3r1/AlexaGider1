@@ -179,7 +179,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="GiderDetaycs.aspx" />
     <Content Include="Stylesheets\loginpage.css" />
-    <Content Include="Stylesheets\pexels-pixabay-302804.jpg" />
     <Content Include="Stylesheets\ss.css" />
     <Content Include="User\Gidergiris.aspx" />
     <Content Include="GiderGor.aspx" />
