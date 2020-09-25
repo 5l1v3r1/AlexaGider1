@@ -22,7 +22,7 @@
 
   <link href="bsdeneme/css/simple-sidebar.css" rel="stylesheet">
 </head>
-<body style="height: 694px">
+<body style="height: 694px;background-image="/StyleSheets/pexels-pixabay-302804.jpg">
 
     <style>
         body{
