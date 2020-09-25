@@ -165,7 +165,6 @@
     <Content Include="bsdeneme\vendor\jquery\jquery.slim.js" />
     <Content Include="bsdeneme\vendor\jquery\jquery.slim.min.js" />
     <Content Include="Contact.aspx" />
-    <Content Include="date.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="KullaniciEkle.aspx" />
     <Content Include="Stylesheets\container.css" />
@@ -178,6 +177,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="GiderDetaycs.aspx" />
+    <Content Include="Stylesheets\kar.jpg" />
     <Content Include="Stylesheets\loginpage.css" />
     <Content Include="Stylesheets\ss.css" />
     <Content Include="User\Gidergiris.aspx" />
@@ -299,13 +299,6 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="date.aspx.cs">
-      <DependentUpon>date.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="date.aspx.designer.cs">
-      <DependentUpon>date.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

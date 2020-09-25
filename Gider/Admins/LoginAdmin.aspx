@@ -9,7 +9,7 @@
 <link href="../BootStrap/css/bootstrap.min.css" rel="stylesheet" />
 <script src="../BootStrap/js/bootstrap.min.js"></script>
 <script src="../BootStrap/js/jquery-3.5.1.min.js"></script>
-  <div class="wrapper fadeInDown" style="background-image: url('../Stylesheets/pexels-pixabay-302804.jpg'); width=100%; height: 100%;background-size:cover;">
+  <div class="wrapper fadeInDown" style="background-image: url('../Stylesheets/kar.jpg'); width=100%; height: 100%;background-size:cover;">
       <div id="formContent">
     <!-- Tabs Titles -->
 

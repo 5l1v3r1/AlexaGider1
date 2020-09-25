@@ -13,6 +13,7 @@ namespace Gider
     public partial class Logon : System.Web.UI.Page
     {
         ConnectionSql bgl = new ConnectionSql();
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             this.cmdLogin.ServerClick += new System.EventHandler(this.cmdLogin_ServerClick);
