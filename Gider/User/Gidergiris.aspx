@@ -14,7 +14,7 @@
     <style type="text/css">
         .auto-style26 {
             display: block;
-            width: 54%;
+            width: 21%;
             height: calc(1.5em + .75rem + 2px);
             font-size: 1rem;
             font-weight: 400;
