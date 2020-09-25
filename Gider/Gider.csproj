@@ -142,6 +142,8 @@
     <Content Include="BootStrap\css\bootstrap-reboot.min.css" />
     <Content Include="BootStrap\css\bootstrap.css" />
     <Content Include="BootStrap\css\bootstrap.min.css" />
+    <Content Include="BootStrap\jquery-ui.min.css" />
+    <Content Include="BootStrap\jquery-ui.min.js" />
     <Content Include="BootStrap\js\bootstrap.bundle.js" />
     <Content Include="BootStrap\js\bootstrap.bundle.min.js" />
     <Content Include="BootStrap\js\bootstrap.js" />
@@ -163,6 +165,7 @@
     <Content Include="bsdeneme\vendor\jquery\jquery.slim.js" />
     <Content Include="bsdeneme\vendor\jquery\jquery.slim.min.js" />
     <Content Include="Contact.aspx" />
+    <Content Include="date.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="KullaniciEkle.aspx" />
     <Content Include="Stylesheets\container.css" />
@@ -296,6 +299,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="date.aspx.cs">
+      <DependentUpon>date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="date.aspx.designer.cs">
+      <DependentUpon>date.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

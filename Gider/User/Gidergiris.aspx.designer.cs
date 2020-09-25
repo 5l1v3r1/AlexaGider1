@@ -24,22 +24,13 @@ namespace Gider
 		protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
 		/// <summary>
-		/// isimTxt control.
+		/// Currency control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox isimTxt;
-
-		/// <summary>
-		/// Miktar control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox Miktar;
+		protected global::System.Web.UI.HtmlControls.HtmlSelect Currency;
 
 		/// <summary>
 		/// Departman control.
@@ -51,31 +42,40 @@ namespace Gider
 		protected global::System.Web.UI.HtmlControls.HtmlSelect Departman;
 
 		/// <summary>
-		/// Currency control.
+		/// datetime control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.HtmlControls.HtmlSelect Currency;
+		protected global::System.Web.UI.HtmlControls.HtmlInputText datetime;
 
 		/// <summary>
-		/// AciklamaTxt control.
+		/// Firma control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox AciklamaTxt;
+		protected global::System.Web.UI.HtmlControls.HtmlInputText Firma;
 
 		/// <summary>
-		/// Tarihtxt control.
+		/// Aciklama control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox Tarihtxt;
+		protected global::System.Web.UI.HtmlControls.HtmlInputText Aciklama;
+
+		/// <summary>
+		/// Miktar control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlInputText Miktar;
 
 		/// <summary>
 		/// Button1 control.

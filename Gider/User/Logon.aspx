@@ -5,10 +5,10 @@
 *,::after,::before{text-shadow:none!important;box-shadow:none!important}*,::after,::before{box-sizing:border-box}.w-100{width:100%!important}table{border-collapse:collapse}img,tr{page-break-inside:avoid}button,input{overflow:visible}button,input,optgroup,select,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}h2,h3,p{orphans:3;widows:3}p{margin-top:0;margin-bottom:1rem}a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}</style>
 </head>
 <!DOCTYPE html>
+<script src="../BootStrap/js/jquery-3.5.1.min.js"></script>
 <link href="../Stylesheets/loginpage.css" rel="stylesheet" />
 <link href="../BootStrap/css/bootstrap.min.css" rel="stylesheet" />
 <script src="../BootStrap/js/bootstrap.min.js"></script>
-<script src="../BootStrap/js/jquery-3.5.1.min.js"></script>
   <div class="wrapper fadeInDown" style="background-image: url('../Stylesheets/pexels-pixabay-302804.jpg'); width=100%; height: 100%;background-size:cover;">
       <div id="formContent">
     <!-- Tabs Titles -->
